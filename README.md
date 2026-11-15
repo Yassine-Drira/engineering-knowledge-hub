@@ -68,6 +68,7 @@ engineering-knowledge-hub/
 
 Authored and maintained by **Yassine Drira**.
 
-- **Independence Statement:** This repository and its publications are independent educational engineering references. They are **not** affiliated with, endorsed by, sponsored by, or officially published by Microsoft Corporation.
+- **Independence & Exam-Policy Notice:** Unofficial community engineering guide. Neither affiliated with, sponsored by, nor endorsed by Microsoft Corporation. **Contains no exam questions, recalled exam items, or dumps**—all diagrams, blueprints, and debugging labs are original educational material.
 - **Documentation Currency:** Content in the initial release reflects the official Microsoft Learn AI-300 study guide (published February 18, 2026) and verified Azure Machine Learning, Microsoft Foundry, Azure AI Search, and Azure OpenAI Service documentation.
 - **Versioning:** Publications are maintained under explicit release notes inside their respective directories as Azure APIs and certification objectives evolve.
+

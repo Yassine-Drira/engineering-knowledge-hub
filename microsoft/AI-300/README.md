@@ -2,10 +2,10 @@
 
 **Certification:** Microsoft Certified: Machine Learning Operations Engineer Associate  
 **Exam Code:** `AI-300` — *Operationalizing Machine Learning and Generative AI Solutions*  
-**Version:** `v1.0` · **Last Updated:** November 2026 · **Pages:** `76` (`1.70 MB` / `1,786,259 bytes`)
+**Version:** `v1.0` · **Last Updated:** November 2026 · **Pages:** `76` (`1.70 MB` / `1,786,652 bytes`)
 
 > **[Download the Complete AI-300 Technical Guide (PDF)](AI-300-Technical-Guide.pdf)**  
-> *Independent technical reference authored by Yassine Drira — not affiliated with or endorsed by Microsoft.*
+> *Unofficial community guide authored by Yassine Drira. Not affiliated with or endorsed by Microsoft. Contains no exam questions or dumps.*
 
 ---
 
@@ -91,3 +91,4 @@ The guide synthesizes and cross-links verified official Microsoft documentation 
 - **Certification & Study Guide:** [Exam AI-300 Overview](https://learn.microsoft.com/credentials/certifications/exams/ai-300/) · [Official AI-300 Study Guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/ai-300) · [MicrosoftLearning / mslearn-mlops](https://github.com/MicrosoftLearning/mslearn-mlops)
 - **Azure Machine Learning:** [Workspaces](https://learn.microsoft.com/azure/machine-learning/concept-workspace) · [Managed VNet](https://learn.microsoft.com/azure/machine-learning/how-to-managed-network) · [MLflow](https://learn.microsoft.com/azure/machine-learning/concept-mlflow) · [Online Endpoints Rollout](https://learn.microsoft.com/azure/machine-learning/how-to-safely-rollout-online-endpoints) · [Model Monitoring](https://learn.microsoft.com/azure/machine-learning/concept-model-monitoring)
 - **Microsoft Foundry & GenAI:** [Foundry Resources & Hubs](https://learn.microsoft.com/azure/ai-foundry/concepts/ai-resources) · [Hybrid Search & RRF](https://learn.microsoft.com/azure/search/hybrid-search-ranking) · [Fine-Tuning Overview](https://learn.microsoft.com/azure/ai-foundry/concepts/fine-tuning-overview) · [Evaluation SDK](https://learn.microsoft.com/azure/ai-foundry/how-to/develop/evaluate-sdk) · [Azure AI Content Safety](https://learn.microsoft.com/azure/ai-services/content-safety/overview) · [OpenTelemetry](https://learn.microsoft.com/azure/azure-monitor/app/opentelemetry-overview)
+
