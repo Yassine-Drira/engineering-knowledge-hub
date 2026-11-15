@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 280" width="1100" height="280" role="img" aria-label="Engineering Knowledge Hub Neural Architecture Hero">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060B16"/>
+      <stop offset="55%" stop-color="#0B1528"/>
+      <stop offset="100%" stop-color="#0F1F3A"/>
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0078D4"/>
+      <stop offset="50%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="edgeGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#0EA5E9" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Canvas Backdrop -->
+  <rect x="0" y="0" width="1100" height="280" rx="14" fill="url(#bgGrad)"/>
+  <rect x="1" y="1" width="1098" height="278" rx="13" fill="none" stroke="#1E3A5F" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1100" height="4" rx="2" fill="url(#accentBar)"/>
+
+  <!-- Subtle Technical Grid (Right Half Architecture Space) -->
+  <g stroke="#1E293B" stroke-width="0.7" opacity="0.55">
+    <line x1="600" y1="24" x2="600" y2="256"/>
+    <line x1="720" y1="24" x2="720" y2="256"/>
+    <line x1="840" y1="24" x2="840" y2="256"/>
+    <line x1="960" y1="24" x2="960" y2="256"/>
+    <line x1="560" y1="70" x2="1065" y2="70"/>
+    <line x1="560" y1="140" x2="1065" y2="140"/>
+    <line x1="560" y1="210" x2="1065" y2="210"/>
+  </g>
+
+  <!-- Neural Network Connections (Layer 1 -> Layer 2 -> Layer 3 -> Output) -->
+  <!-- Layer 1 x=635, y=(70,140,210); Layer 2 x=765, y=(52,110,170,228); Layer 3 x=895, y=(75,140,205); Layer 4 x=1015, y=(105,175) -->
+  <g stroke="#1E40AF" stroke-width="1.2" opacity="0.55">
+    <line x1="635" y1="70" x2="765" y2="52"/>
+    <line x1="635" y1="70" x2="765" y2="110"/>
+    <line x1="635" y1="70" x2="765" y2="170"/>
+    <line x1="635" y1="140" x2="765" y2="52"/>
+    <line x1="635" y1="140" x2="765" y2="110"/>
+    <line x1="635" y1="140" x2="765" y2="170"/>
+    <line x1="635" y1="140" x2="765" y2="228"/>
+    <line x1="635" y1="210" x2="765" y2="110"/>
+    <line x1="635" y1="210" x2="765" y2="170"/>
+    <line x1="635" y1="210" x2="765" y2="228"/>
+
+    <line x1="765" y1="52" x2="895" y2="75"/>
+    <line x1="765" y1="52" x2="895" y2="140"/>
+    <line x1="765" y1="110" x2="895" y2="75"/>
+    <line x1="765" y1="110" x2="895" y2="140"/>
+    <line x1="765" y1="110" x2="895" y2="205"/>
+    <line x1="765" y1="170" x2="895" y2="75"/>
+    <line x1="765" y1="170" x2="895" y2="140"/>
+    <line x1="765" y1="170" x2="895" y2="205"/>
+    <line x1="765" y1="228" x2="895" y2="140"/>
+    <line x1="765" y1="228" x2="895" y2="205"/>
+
+    <line x1="895" y1="75" x2="1015" y2="105"/>
+    <line x1="895" y1="75" x2="1015" y2="175"/>
+    <line x1="895" y1="140" x2="1015" y2="105"/>
+    <line x1="895" y1="140" x2="1015" y2="175"/>
+    <line x1="895" y1="205" x2="1015" y2="105"/>
+    <line x1="895" y1="205" x2="1015" y2="175"/>
+  </g>
+
+  <!-- Highlighted Active Signal Paths -->
+  <g stroke="url(#edgeGlow)" stroke-width="2">
+    <line x1="635" y1="140" x2="765" y2="110"/>
+    <line x1="765" y1="110" x2="895" y2="140"/>
+    <line x1="895" y1="140" x2="1015" y2="105"/>
+    <line x1="635" y1="70" x2="765" y2="52"/>
+    <line x1="765" y1="52" x2="895" y2="75"/>
+    <line x1="895" y1="75" x2="1015" y2="105"/>
+    <line x1="635" y1="210" x2="765" y2="170"/>
+    <line x1="765" y1="170" x2="895" y2="205"/>
+    <line x1="895" y1="205" x2="1015" y2="175"/>
+  </g>
+
+  <!-- Soft Glow Halos -->
+  <circle cx="635" cy="140" r="24" fill="url(#nodeGlow)"/>
+  <circle cx="765" cy="110" r="26" fill="url(#nodeGlow)"/>
+  <circle cx="895" cy="140" r="26" fill="url(#nodeGlow)"/>
+  <circle cx="1015" cy="105" r="28" fill="url(#nodeGlow)"/>
+  <circle cx="1015" cy="175" r="24" fill="url(#nodeGlow)"/>
+
+  <!-- Neural Network Nodes -->
+  <!-- Layer 1: Foundations -->
+  <g fill="#0F172A" stroke="#38BDF8" stroke-width="2">
+    <circle cx="635" cy="70" r="7.5"/>
+    <circle cx="635" cy="140" r="9" stroke="#0EA5E9" stroke-width="2.5"/>
+    <circle cx="635" cy="210" r="7.5"/>
+  </g>
+  <circle cx="635" cy="140" r="3.5" fill="#38BDF8"/>
+
+  <!-- Layer 2: Infrastructure & Data -->
+  <g fill="#0F172A" stroke="#0EA5E9" stroke-width="2">
+    <circle cx="765" cy="52" r="7.5"/>
+    <circle cx="765" cy="110" r="9.5" stroke="#38BDF8" stroke-width="2.5"/>
+    <circle cx="765" cy="170" r="8"/>
+    <circle cx="765" cy="228" r="7"/>
+  </g>
+  <circle cx="765" cy="110" r="4" fill="#38BDF8"/>
+
+  <!-- Layer 3: MLOps & GenAIOps -->
+  <g fill="#0F172A" stroke="#38BDF8" stroke-width="2">
+    <circle cx="895" cy="75" r="8"/>
+    <circle cx="895" cy="140" r="10" stroke="#7DD3FC" stroke-width="2.5"/>
+    <circle cx="895" cy="205" r="8"/>
+  </g>
+  <circle cx="895" cy="140" r="4.2" fill="#7DD3FC"/>
+
+  <!-- Layer 4: Production Systems -->
+  <g fill="#0B2948" stroke="#7DD3FC" stroke-width="2.5">
+    <circle cx="1015" cy="105" r="11"/>
+    <circle cx="1015" cy="175" r="10"/>
+  </g>
+  <circle cx="1015" cy="105" r="4.5" fill="#38BDF8"/>
+  <circle cx="1015" cy="175" r="4" fill="#0EA5E9"/>
+
+  <!-- Neural Layer Captions -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#64748B" text-anchor="middle" font-weight="600" letter-spacing="0.6">
+    <text x="635" y="256">INFRA</text>
+    <text x="765" y="256">PIPELINES</text>
+    <text x="895" y="256">MODELS</text>
+    <text x="1015" y="256">PROD</text>
+  </g>
+
+  <!-- Left Typography Block -->
+  <rect x="44" y="48" width="44" height="4" rx="2" fill="#38BDF8"/>
+  <text x="44" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="2.2">TECHNICAL ARCHITECTURE &amp; CLOUD REFERENCE</text>
+  <text x="44" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="33" font-weight="800" fill="#F8FAFC" letter-spacing="-0.6">Engineering Knowledge Hub</text>
+  <text x="44" y="156" font-family="Segoe UI, Arial, sans-serif" font-size="14.5" fill="#CBD5E1">First-principles engineering guides for cloud infrastructure,</text>
+  <text x="44" y="177" font-family="Segoe UI, Arial, sans-serif" font-size="14.5" fill="#CBD5E1">MLOps pipelines, generative AI systems, and production operations.</text>
+
+  <!-- Bottom Metadata Pills -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">
+    <rect x="44" y="206" width="166" height="30" rx="6" fill="#0F2744" stroke="#0EA5E9" stroke-width="1"/>
+    <text x="127" y="225" fill="#7DD3FC" text-anchor="middle">Active Release: AI-300</text>
+
+    <rect x="222" y="206" width="174" height="30" rx="6" fill="#132238" stroke="#334155" stroke-width="1"/>
+    <text x="309" y="225" fill="#CBD5E1" text-anchor="middle">76-Page Technical PDF</text>
+
+    <rect x="408" y="206" width="150" height="30" rx="6" fill="#132238" stroke="#334155" stroke-width="1"/>
+    <text x="483" y="225" fill="#CBD5E1" text-anchor="middle">Official Docs Verified</text>
+  </g>
+</svg>
